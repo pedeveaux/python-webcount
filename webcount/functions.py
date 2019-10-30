@@ -7,7 +7,7 @@ def most_common_word_in_web_page(words, url):
     """
     response = requests.get(url)
     return most_common_word(words, response.text)
-    
+
 
 def most_common_word(words, text):
     """
